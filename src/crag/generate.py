@@ -51,7 +51,7 @@ def build_prompt(question: str, chunks) -> str:
 
 
 class GeminiGenerator:
-    def __init__(self, model: str = "gemini-2.5-flash", temperature: float = 0.0):
+    def __init__(self, model: str = "gemini-3.8-flash", temperature: float = 0.0):
         from google import genai  # optional dependency
 
         key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")

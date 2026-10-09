@@ -40,7 +40,7 @@ The numbers are in `reports/retrieval_results.json` and `.md`. Latency is measur
 2. **Reciprocal Rank Fusion was worse than dense alone** (MRR 0.702 vs 0.723). RRF weights both retrievers equally, and here BM25 is much weaker. A **weighted** fusion with α chosen by cross-validation (α = 0.8, consistent across all 5 folds) beats both.
 3. **The learned reranker didn't pay off.** A LambdaRank model over 8 interpretable features, trained on about 110 questions per fold, scored *below* the plain weighted hybrid (MRR 0.695). There isn't enough labelled data for it. I kept it in the report as a negative result.
 4. **Failure analysis found the real problem: vocabulary.** Most v1 misses were Indian civic terms the Constitution never uses: *Lok Sabha* (→ House of the People), *Rajya Sabha*, *MP*, *village council* (→ Panchayat), *budget* (→ annual financial statement), *temporary law* (→ Ordinance). A general English embedding model doesn't know these mappings.
-5. **The fix: a 40-term glossary for query expansion** (`src/crag/expansion.py`). On the main set, MRR rose from 0.751 to 0.787 and R@5 for everyday questions from 0.82 to 0.90. The glossary was written *after* seeing the main-set failures, so it was frozen and tested on 38 new questions: **R@1 rose from 0.632 to 0.816 and MRR from 0.756 to 0.879.**
+5. **The fix: a 38-term glossary for query expansion** (`src/crag/expansion.py`). On the main set, MRR rose from 0.751 to 0.787 and R@5 for everyday questions from 0.82 to 0.90. The glossary was written *after* seeing the main-set failures, so it was frozen and tested on 38 new questions: **R@1 rose from 0.632 to 0.816 and MRR from 0.756 to 0.879.**
 
 **Caveats:** the held-out set is small (38) and was written by the same author who wrote the glossary, so treat it as directional. The legal-phrasing subset is too easy, since the questions echo article titles.
 
@@ -55,7 +55,7 @@ These are the cases a cross-encoder or LLM reranker should fix. That is the next
 
 ## Generation (Gemini) with verified citations
 
-`src/crag/generate.py` sends the top 5 chunks to Gemini (`gemini-2.5-flash`, temperature 0) with these rules: answer only from the context, cite every rule as `[Art. N]`, and refuse with a fixed sentence when the answer isn't there. **Citations are then checked in code**: any cited article that wasn't in the retrieved context is returned as `unverified_citations`.
+`src/crag/generate.py` sends the top 5 chunks to Gemini (`gemini-3.8-flash`, temperature 0) with these rules: answer only from the context, cite every rule as `[Art. N]`, and refuse with a fixed sentence when the answer isn't there. **Citations are then checked in code**: any cited article that wasn't in the retrieved context is returned as `unverified_citations`.
 
 `make eval-gen` scores answers with deterministic checks only, no LLM-as-judge:
 
