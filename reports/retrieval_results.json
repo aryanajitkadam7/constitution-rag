@@ -1,0 +1,551 @@
+{
+  "n_questions": 140,
+  "n_chunks": 634,
+  "n_articles": 465,
+  "embedder": "all-MiniLM-L6-v2-int8",
+  "index_build_seconds": 0.07,
+  "weighted_alpha_per_fold": [
+    0.8,
+    0.9,
+    0.9,
+    0.8,
+    0.8
+  ],
+  "weighted_alpha_per_fold_expansion": [
+    0.8,
+    0.9,
+    0.9,
+    0.8,
+    0.8
+  ],
+  "systems": {
+    "bm25": {
+      "all": {
+        "recall@1": 0.44285714285714284,
+        "recall@3": 0.5642857142857143,
+        "recall@5": 0.6357142857142857,
+        "recall@10": 0.7857142857142857,
+        "mrr@10": 0.5361507936507935,
+        "ndcg@10": 0.5927064366793847
+      },
+      "lay": {
+        "recall@1": 0.32727272727272727,
+        "recall@3": 0.44545454545454544,
+        "recall@5": 0.5363636363636364,
+        "recall@10": 0.7272727272727273,
+        "mrr@10": 0.4293434343434343,
+        "ndcg@10": 0.49623738067635903
+      },
+      "legal": {
+        "recall@1": 0.8666666666666667,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9277777777777777,
+        "ndcg@10": 0.9464263086904791
+      },
+      "latency_ms_p50": 0.88
+    },
+    "dense": {
+      "all": {
+        "recall@1": 0.6214285714285714,
+        "recall@3": 0.8071428571428572,
+        "recall@5": 0.8571428571428571,
+        "recall@10": 0.9142857142857143,
+        "mrr@10": 0.7231802721088435,
+        "ndcg@10": 0.7623008507291545
+      },
+      "lay": {
+        "recall@1": 0.5454545454545454,
+        "recall@3": 0.7636363636363637,
+        "recall@5": 0.8181818181818182,
+        "recall@10": 0.8909090909090909,
+        "mrr@10": 0.6651082251082251,
+        "ndcg@10": 0.7105501162766982
+      },
+      "legal": {
+        "recall@1": 0.9,
+        "recall@3": 0.9666666666666667,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9361111111111111,
+        "ndcg@10": 0.9520535437214951
+      },
+      "latency_ms_p50": 4.48
+    },
+    "hybrid_rrf": {
+      "all": {
+        "recall@1": 0.5928571428571429,
+        "recall@3": 0.7857142857142857,
+        "recall@5": 0.8428571428571429,
+        "recall@10": 0.9214285714285714,
+        "mrr@10": 0.7023894557823128,
+        "ndcg@10": 0.7495519687968988
+      },
+      "lay": {
+        "recall@1": 0.5,
+        "recall@3": 0.7272727272727273,
+        "recall@5": 0.8,
+        "recall@10": 0.9,
+        "mrr@10": 0.6333441558441558,
+        "ndcg@10": 0.6903388693778711
+      },
+      "legal": {
+        "recall@1": 0.9333333333333333,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9555555555555555,
+        "ndcg@10": 0.9666666666666667
+      },
+      "latency_ms_p50": 5.01
+    },
+    "hybrid_weighted_cv": {
+      "all": {
+        "recall@1": 0.6571428571428571,
+        "recall@3": 0.8142857142857143,
+        "recall@5": 0.8571428571428571,
+        "recall@10": 0.9357142857142857,
+        "mrr@10": 0.7505810657596371,
+        "ndcg@10": 0.7877586800431554
+      },
+      "lay": {
+        "recall@1": 0.5909090909090909,
+        "recall@3": 0.7727272727272727,
+        "recall@5": 0.8181818181818182,
+        "recall@10": 0.9181818181818182,
+        "mrr@10": 0.698466810966811,
+        "ndcg@10": 0.7417607194620496
+      },
+      "legal": {
+        "recall@1": 0.9,
+        "recall@3": 0.9666666666666667,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9416666666666667,
+        "ndcg@10": 0.9564178688405437
+      },
+      "latency_ms_p50": 5.59
+    },
+    "hybrid+ltr_rerank_cv": {
+      "all": {
+        "recall@1": 0.6,
+        "recall@3": 0.75,
+        "recall@5": 0.8142857142857143,
+        "recall@10": 0.9214285714285714,
+        "mrr@10": 0.6948582766439909,
+        "ndcg@10": 0.7434424383380449
+      },
+      "lay": {
+        "recall@1": 0.5272727272727272,
+        "recall@3": 0.6909090909090909,
+        "recall@5": 0.7636363636363637,
+        "recall@10": 0.9,
+        "mrr@10": 0.6351226551226551,
+        "ndcg@10": 0.6910939550516492
+      },
+      "legal": {
+        "recall@1": 0.8666666666666667,
+        "recall@3": 0.9666666666666667,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9138888888888889,
+        "ndcg@10": 0.9353868770548284
+      },
+      "latency_ms_p50": 10.79
+    },
+    "bm25+expansion": {
+      "all": {
+        "recall@1": 0.4928571428571429,
+        "recall@3": 0.6214285714285714,
+        "recall@5": 0.7,
+        "recall@10": 0.8357142857142857,
+        "mrr@10": 0.5900736961451247,
+        "ndcg@10": 0.6444408832111002
+      },
+      "lay": {
+        "recall@1": 0.39090909090909093,
+        "recall@3": 0.5181818181818182,
+        "recall@5": 0.6181818181818182,
+        "recall@10": 0.7909090909090909,
+        "mrr@10": 0.49797258297258296,
+        "ndcg@10": 0.562081221716724
+      },
+      "legal": {
+        "recall@1": 0.8666666666666667,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9277777777777777,
+        "ndcg@10": 0.9464263086904791
+      },
+      "latency_ms_p50": 1.09
+    },
+    "dense+expansion": {
+      "all": {
+        "recall@1": 0.65,
+        "recall@3": 0.8285714285714286,
+        "recall@5": 0.8928571428571429,
+        "recall@10": 0.95,
+        "mrr@10": 0.758767006802721,
+        "ndcg@10": 0.7968753241529677
+      },
+      "lay": {
+        "recall@1": 0.5818181818181818,
+        "recall@3": 0.7909090909090909,
+        "recall@5": 0.8636363636363636,
+        "recall@10": 0.9363636363636364,
+        "mrr@10": 0.7104004329004329,
+        "ndcg@10": 0.7545539915433693
+      },
+      "legal": {
+        "recall@1": 0.9,
+        "recall@3": 0.9666666666666667,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9361111111111111,
+        "ndcg@10": 0.9520535437214951
+      },
+      "latency_ms_p50": 4.18
+    },
+    "hybrid_weighted_cv+expansion": {
+      "all": {
+        "recall@1": 0.6857142857142857,
+        "recall@3": 0.8785714285714286,
+        "recall@5": 0.9214285714285714,
+        "recall@10": 0.9571428571428572,
+        "mrr@10": 0.7874092970521541,
+        "ndcg@10": 0.8223663836192003
+      },
+      "lay": {
+        "recall@1": 0.6272727272727273,
+        "recall@3": 0.8545454545454545,
+        "recall@5": 0.9,
+        "recall@10": 0.9454545454545454,
+        "mrr@10": 0.7453391053391052,
+        "ndcg@10": 0.7858068876497429
+      },
+      "legal": {
+        "recall@1": 0.9,
+        "recall@3": 0.9666666666666667,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr@10": 0.9416666666666667,
+        "ndcg@10": 0.9564178688405437
+      },
+      "latency_ms_p50": 5.91
+    }
+  },
+  "best_system": "hybrid_weighted_cv+expansion",
+  "heldout": {
+    "n_questions": 38,
+    "systems": {
+      "bm25": {
+        "recall@1": 0.5263157894736842,
+        "recall@3": 0.6842105263157895,
+        "recall@5": 0.8157894736842105,
+        "recall@10": 0.8421052631578947,
+        "mrr@10": 0.6256578947368422,
+        "ndcg@10": 0.6800721518037443
+      },
+      "dense": {
+        "recall@1": 0.5526315789473685,
+        "recall@3": 0.8157894736842105,
+        "recall@5": 0.8947368421052632,
+        "recall@10": 0.9736842105263158,
+        "mrr@10": 0.7053258145363408,
+        "ndcg@10": 0.7709262946256946
+      },
+      "hybrid_weighted_a0.8": {
+        "recall@1": 0.631578947368421,
+        "recall@3": 0.8421052631578947,
+        "recall@5": 0.9473684210526315,
+        "recall@10": 0.9736842105263158,
+        "mrr@10": 0.7563596491228071,
+        "ndcg@10": 0.8109921010988653
+      },
+      "bm25+expansion": {
+        "recall@1": 0.631578947368421,
+        "recall@3": 0.8947368421052632,
+        "recall@5": 0.9210526315789473,
+        "recall@10": 0.9473684210526315,
+        "mrr@10": 0.7494152046783625,
+        "ndcg@10": 0.7991450685251764
+      },
+      "dense+expansion": {
+        "recall@1": 0.6842105263157895,
+        "recall@3": 0.8947368421052632,
+        "recall@5": 0.9736842105263158,
+        "recall@10": 1.0,
+        "mrr@10": 0.8030701754385965,
+        "ndcg@10": 0.8469527003242303
+      },
+      "hybrid_weighted_a0.8+expansion": {
+        "recall@1": 0.8157894736842105,
+        "recall@3": 0.9473684210526315,
+        "recall@5": 0.9736842105263158,
+        "recall@10": 0.9736842105263158,
+        "mrr@10": 0.8793859649122806,
+        "ndcg@10": 0.9011364896825251
+      }
+    }
+  },
+  "failures_best_system": [
+    {
+      "id": "lay-003",
+      "question": "Can the government force people to work without pay?",
+      "gold": [
+        "23"
+      ],
+      "gold_rank": null,
+      "top3": [
+        "41",
+        "43",
+        "39"
+      ],
+      "bm25_rank": null,
+      "dense_rank": null
+    },
+    {
+      "id": "lay-007",
+      "question": "Can the government give a person an honour like 'Sir' or 'Raja'?",
+      "gold": [
+        "18"
+      ],
+      "gold_rank": 7,
+      "top3": [
+        "363A",
+        "312A",
+        "310"
+      ],
+      "bm25_rank": null,
+      "dense_rank": 5
+    },
+    {
+      "id": "lay-008",
+      "question": "Am I allowed to hold a peaceful protest with my friends?",
+      "gold": [
+        "19"
+      ],
+      "gold_rank": null,
+      "top3": [
+        "121",
+        "211",
+        "51"
+      ],
+      "bm25_rank": null,
+      "dense_rank": null
+    },
+    {
+      "id": "lay-014",
+      "question": "Is the government supposed to bring one common family law for all citizens?",
+      "gold": [
+        "44"
+      ],
+      "gold_rank": null,
+      "top3": [
+        "31C",
+        "31D",
+        "243ZT"
+      ],
+      "bm25_rank": null,
+      "dense_rank": null
+    },
+    {
+      "id": "lay-019",
+      "question": "How can a President be removed from office for violating the Constitution?",
+      "gold": [
+        "61"
+      ],
+      "gold_rank": 4,
+      "top3": [
+        "317",
+        "124",
+        "56"
+      ],
+      "bm25_rank": null,
+      "dense_rank": 6
+    },
+    {
+      "id": "lay-030",
+      "question": "Which kind of bill can only be introduced in the Lok Sabha?",
+      "gold": [
+        "109",
+        "110"
+      ],
+      "gold_rank": 4,
+      "top3": [
+        "243A",
+        "117",
+        "107"
+      ],
+      "bm25_rank": 7,
+      "dense_rank": null
+    },
+    {
+      "id": "lay-033",
+      "question": "Can the government make a law when Parliament is not sitting?",
+      "gold": [
+        "123"
+      ],
+      "gold_rank": null,
+      "top3": [
+        "100",
+        "118",
+        "85"
+      ],
+      "bm25_rank": null,
+      "dense_rank": null
+    },
+    {
+      "id": "lay-038",
+      "question": "Can I go to the Supreme Court even if the High Court refused to let me appeal?",
+      "gold": [
+        "136"
+      ],
+      "gold_rank": 5,
+      "top3": [
+        "133",
+        "134",
+        "132"
+      ],
+      "bm25_rank": 6,
+      "dense_rank": 4
+    },
+    {
+      "id": "lay-040",
+      "question": "Are lower courts bound to follow what the Supreme Court decides?",
+      "gold": [
+        "141"
+      ],
+      "gold_rank": 8,
+      "top3": [
+        "124",
+        "218",
+        "132"
+      ],
+      "bm25_rank": 7,
+      "dense_rank": 7
+    },
+    {
+      "id": "lay-054",
+      "question": "What is the meeting of all voters in a village called?",
+      "gold": [
+        "243A"
+      ],
+      "gold_rank": null,
+      "top3": [
+        "189",
+        "100",
+        "243R"
+      ],
+      "bm25_rank": 4,
+      "dense_rank": null
+    },
+    {
+      "id": "lay-057",
+      "question": "Who runs elections for village councils?",
+      "gold": [
+        "243K"
+      ],
+      "gold_rank": 5,
+      "top3": [
+        "243R",
+        "243C",
+        "40"
+      ],
+      "bm25_rank": 10,
+      "dense_rank": 2
+    },
+    {
+      "id": "lay-062",
+      "question": "If a central law and a state law clash, which one wins?",
+      "gold": [
+        "254"
+      ],
+      "gold_rank": 6,
+      "top3": [
+        "243ZR",
+        "3",
+        "251"
+      ],
+      "bm25_rank": 9,
+      "dense_rank": 6
+    },
+    {
+      "id": "lay-066",
+      "question": "Who recommends how tax money is shared between the Centre and the States?",
+      "gold": [
+        "280"
+      ],
+      "gold_rank": 9,
+      "top3": [
+        "269",
+        "268A",
+        "285"
+      ],
+      "bm25_rank": 1,
+      "dense_rank": null
+    },
+    {
+      "id": "lay-067",
+      "question": "Can the government take my land without any law allowing it?",
+      "gold": [
+        "300A"
+      ],
+      "gold_rank": null,
+      "top3": [
+        "31A",
+        "323B",
+        "293"
+      ],
+      "bm25_rank": null,
+      "dense_rank": 7
+    },
+    {
+      "id": "lay-068",
+      "question": "Can goods move freely from one state to another?",
+      "gold": [
+        "301"
+      ],
+      "gold_rank": 8,
+      "top3": [
+        "304",
+        "269A",
+        "286"
+      ],
+      "bm25_rank": null,
+      "dense_rank": 4
+    },
+    {
+      "id": "lay-096",
+      "question": "What other name does the Constitution give to India?",
+      "gold": [
+        "1"
+      ],
+      "gold_rank": 4,
+      "top3": [
+        "393",
+        "Preamble",
+        "300"
+      ],
+      "bm25_rank": 5,
+      "dense_rank": null
+    },
+    {
+      "id": "legal-004",
+      "question": "Constitution and functions of the Finance Commission",
+      "gold": [
+        "280"
+      ],
+      "gold_rank": 4,
+      "top3": [
+        "243I",
+        "281",
+        "264"
+      ],
+      "bm25_rank": 1,
+      "dense_rank": 4
+    }
+  ]
+}

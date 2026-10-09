@@ -1,0 +1,13 @@
+numpy>=1.26
+onnxruntime>=1.17
+tokenizers>=0.15
+rank_bm25>=0.2.2
+lightgbm>=4.3
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+google-genai>=1.0
+pytest>=8.0
+httpx>=0.27
+# optional: cross-encoder reranking experiment (python -m crag.evaluate --cross-encoder)
+# sentence-transformers>=3.0

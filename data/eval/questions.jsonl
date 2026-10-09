@@ -1,0 +1,152 @@
+{"id": "lay-000", "type": "lay", "question": "Can the police keep me locked up for days without bringing me before a judge?", "gold": ["22"]}
+{"id": "lay-001", "type": "lay", "question": "Is it legal for a factory to hire a 12-year-old?", "gold": ["24"]}
+{"id": "lay-002", "type": "lay", "question": "Do kids have a right to free schooling?", "gold": ["21A", "45"]}
+{"id": "lay-003", "type": "lay", "question": "Can the government force people to work without pay?", "gold": ["23"]}
+{"id": "lay-004", "type": "lay", "question": "Can I be punished twice for the same crime?", "gold": ["20"]}
+{"id": "lay-005", "type": "lay", "question": "Can a shop refuse entry to someone because of their caste?", "gold": ["15", "17"]}
+{"id": "lay-006", "type": "lay", "question": "Is treating someone as an outcaste because of birth a crime?", "gold": ["17"]}
+{"id": "lay-007", "type": "lay", "question": "Can the government give a person an honour like 'Sir' or 'Raja'?", "gold": ["18"]}
+{"id": "lay-008", "type": "lay", "question": "Am I allowed to hold a peaceful protest with my friends?", "gold": ["19"]}
+{"id": "lay-009", "type": "lay", "question": "If the government violates my basic rights, which court can I approach directly?", "gold": ["32", "226"]}
+{"id": "lay-010", "type": "lay", "question": "Can a minority community run its own school or college?", "gold": ["30"]}
+{"id": "lay-011", "type": "lay", "question": "Can I be made to pay a tax that funds one particular religion?", "gold": ["27"]}
+{"id": "lay-012", "type": "lay", "question": "Does a government-funded school have to make my child attend prayers?", "gold": ["28"]}
+{"id": "lay-013", "type": "lay", "question": "Is there a promise of free lawyers for poor people?", "gold": ["39A"]}
+{"id": "lay-014", "type": "lay", "question": "Is the government supposed to bring one common family law for all citizens?", "gold": ["44"]}
+{"id": "lay-015", "type": "lay", "question": "Who is responsible for protecting forests and wildlife?", "gold": ["48A", "51A"]}
+{"id": "lay-016", "type": "lay", "question": "What responsibilities does every citizen owe to the country?", "gold": ["51A"]}
+{"id": "lay-017", "type": "lay", "question": "How old must you be to become President?", "gold": ["58"]}
+{"id": "lay-018", "type": "lay", "question": "How long does a President stay in office?", "gold": ["56"]}
+{"id": "lay-019", "type": "lay", "question": "How can a President be removed from office for violating the Constitution?", "gold": ["61"]}
+{"id": "lay-020", "type": "lay", "question": "Can the President spare the life of a person sentenced to death?", "gold": ["72"]}
+{"id": "lay-021", "type": "lay", "question": "Who takes over as President if the President dies suddenly?", "gold": ["65"]}
+{"id": "lay-022", "type": "lay", "question": "Who advises the President when making decisions?", "gold": ["74"]}
+{"id": "lay-023", "type": "lay", "question": "How many members can the Rajya Sabha have?", "gold": ["80"]}
+{"id": "lay-024", "type": "lay", "question": "What is the maximum strength of the Lok Sabha?", "gold": ["81"]}
+{"id": "lay-025", "type": "lay", "question": "After how many years does the Lok Sabha automatically end?", "gold": ["83"]}
+{"id": "lay-026", "type": "lay", "question": "What is the minimum age to become a member of Parliament?", "gold": ["84"]}
+{"id": "lay-027", "type": "lay", "question": "What happens if an MP stays away from Parliament for months without permission?", "gold": ["101"]}
+{"id": "lay-028", "type": "lay", "question": "Can an MP be sued for something they said inside Parliament?", "gold": ["105"]}
+{"id": "lay-029", "type": "lay", "question": "What happens when the two Houses of Parliament keep disagreeing on a bill?", "gold": ["108"]}
+{"id": "lay-030", "type": "lay", "question": "Which kind of bill can only be introduced in the Lok Sabha?", "gold": ["109", "110"]}
+{"id": "lay-031", "type": "lay", "question": "Can the President refuse to sign a bill passed by Parliament?", "gold": ["111"]}
+{"id": "lay-032", "type": "lay", "question": "Who places the yearly budget before Parliament?", "gold": ["112"]}
+{"id": "lay-033", "type": "lay", "question": "Can the government make a law when Parliament is not sitting?", "gold": ["123"]}
+{"id": "lay-034", "type": "lay", "question": "In which languages can MPs speak in Parliament?", "gold": ["120"]}
+{"id": "lay-035", "type": "lay", "question": "Can MPs discuss how a judge behaved while doing their job?", "gold": ["121"]}
+{"id": "lay-036", "type": "lay", "question": "Who appoints the judges of the top court of the country?", "gold": ["124"]}
+{"id": "lay-037", "type": "lay", "question": "Can the Supreme Court directly hear a fight between the Centre and a State?", "gold": ["131"]}
+{"id": "lay-038", "type": "lay", "question": "Can I go to the Supreme Court even if the High Court refused to let me appeal?", "gold": ["136"]}
+{"id": "lay-039", "type": "lay", "question": "Can the Supreme Court take a second look at its own decision?", "gold": ["137"]}
+{"id": "lay-040", "type": "lay", "question": "Are lower courts bound to follow what the Supreme Court decides?", "gold": ["141"]}
+{"id": "lay-041", "type": "lay", "question": "Can the President ask the Supreme Court for its opinion on a legal question?", "gold": ["143"]}
+{"id": "lay-042", "type": "lay", "question": "Who checks the accounts of the central government?", "gold": ["148", "149"]}
+{"id": "lay-043", "type": "lay", "question": "Who chooses the Governor of a State?", "gold": ["155"]}
+{"id": "lay-044", "type": "lay", "question": "Can a Governor forgive a prisoner's sentence?", "gold": ["161"]}
+{"id": "lay-045", "type": "lay", "question": "Who is the top lawyer for a State government?", "gold": ["165"]}
+{"id": "lay-046", "type": "lay", "question": "Can a State have an upper house in its legislature?", "gold": ["168", "169"]}
+{"id": "lay-047", "type": "lay", "question": "Can a Governor send a State bill to the President instead of signing it?", "gold": ["200", "201"]}
+{"id": "lay-048", "type": "lay", "question": "Can a Governor make temporary laws when the assembly is not in session?", "gold": ["213"]}
+{"id": "lay-049", "type": "lay", "question": "At what age does a High Court judge retire?", "gold": ["217"]}
+{"id": "lay-050", "type": "lay", "question": "Can a retired High Court judge go back to practising as a lawyer?", "gold": ["220"]}
+{"id": "lay-051", "type": "lay", "question": "Can a High Court judge be shifted to another state's High Court?", "gold": ["222"]}
+{"id": "lay-052", "type": "lay", "question": "Can a High Court order the release of someone held illegally?", "gold": ["226"]}
+{"id": "lay-053", "type": "lay", "question": "Who appoints district judges?", "gold": ["233"]}
+{"id": "lay-054", "type": "lay", "question": "What is the meeting of all voters in a village called?", "gold": ["243A"]}
+{"id": "lay-055", "type": "lay", "question": "Are seats kept aside for women in village councils?", "gold": ["243D"]}
+{"id": "lay-056", "type": "lay", "question": "How many years does a village council last?", "gold": ["243E"]}
+{"id": "lay-057", "type": "lay", "question": "Who runs elections for village councils?", "gold": ["243K"]}
+{"id": "lay-058", "type": "lay", "question": "Are seats reserved in city corporations and municipal councils?", "gold": ["243T"]}
+{"id": "lay-059", "type": "lay", "question": "Can a member of a co-operative society see its books and accounts?", "gold": ["243ZO"]}
+{"id": "lay-060", "type": "lay", "question": "Who can make laws on a subject that is not in any of the lists?", "gold": ["248"]}
+{"id": "lay-061", "type": "lay", "question": "Who has the power to make laws on GST?", "gold": ["246A"]}
+{"id": "lay-062", "type": "lay", "question": "If a central law and a state law clash, which one wins?", "gold": ["254"]}
+{"id": "lay-063", "type": "lay", "question": "How are fights between states over river water settled?", "gold": ["262"]}
+{"id": "lay-064", "type": "lay", "question": "Can the government collect a tax without passing a law?", "gold": ["265"]}
+{"id": "lay-065", "type": "lay", "question": "Is there an emergency kitty the government can use for unforeseen spending?", "gold": ["267"]}
+{"id": "lay-066", "type": "lay", "question": "Who recommends how tax money is shared between the Centre and the States?", "gold": ["280"]}
+{"id": "lay-067", "type": "lay", "question": "Can the government take my land without any law allowing it?", "gold": ["300A"]}
+{"id": "lay-068", "type": "lay", "question": "Can goods move freely from one state to another?", "gold": ["301"]}
+{"id": "lay-069", "type": "lay", "question": "Can a government employee be sacked without being heard?", "gold": ["311"]}
+{"id": "lay-070", "type": "lay", "question": "Who creates services like the IAS and IPS?", "gold": ["312"]}
+{"id": "lay-071", "type": "lay", "question": "Who conducts elections to Parliament and the state assemblies?", "gold": ["324"]}
+{"id": "lay-072", "type": "lay", "question": "Can someone be left off the voter list because of their religion?", "gold": ["325"]}
+{"id": "lay-073", "type": "lay", "question": "At what age can a citizen vote?", "gold": ["326"]}
+{"id": "lay-074", "type": "lay", "question": "Can courts stop an election that is in progress?", "gold": ["329"]}
+{"id": "lay-075", "type": "lay", "question": "Are Lok Sabha seats reserved for Scheduled Castes and Tribes?", "gold": ["330"]}
+{"id": "lay-076", "type": "lay", "question": "What is the official language of the central government?", "gold": ["343"]}
+{"id": "lay-077", "type": "lay", "question": "In which language are Supreme Court judgments written?", "gold": ["348"]}
+{"id": "lay-078", "type": "lay", "question": "Should small children be taught in their mother tongue?", "gold": ["350A"]}
+{"id": "lay-079", "type": "lay", "question": "When can a national emergency be declared?", "gold": ["352"]}
+{"id": "lay-080", "type": "lay", "question": "What happens if a state government cannot be run as per the Constitution?", "gold": ["356"]}
+{"id": "lay-081", "type": "lay", "question": "Can freedom of speech be put on hold during an emergency?", "gold": ["358", "359"]}
+{"id": "lay-082", "type": "lay", "question": "When can the President declare a financial emergency?", "gold": ["360"]}
+{"id": "lay-083", "type": "lay", "question": "Can a sitting President be taken to court for a crime?", "gold": ["361"]}
+{"id": "lay-084", "type": "lay", "question": "How can the Constitution itself be changed?", "gold": ["368"]}
+{"id": "lay-085", "type": "lay", "question": "What special status did Jammu and Kashmir have?", "gold": ["370"]}
+{"id": "lay-086", "type": "lay", "question": "Are there special provisions for Nagaland?", "gold": ["371A"]}
+{"id": "lay-087", "type": "lay", "question": "Can the State make special provisions for women and children?", "gold": ["15"]}
+{"id": "lay-088", "type": "lay", "question": "Are government jobs equally open to all citizens?", "gold": ["16"]}
+{"id": "lay-089", "type": "lay", "question": "Can someone be convicted for something that was not a crime when they did it?", "gold": ["20"]}
+{"id": "lay-090", "type": "lay", "question": "Am I free to travel and settle anywhere in India?", "gold": ["19"]}
+{"id": "lay-091", "type": "lay", "question": "Can I be forced to give evidence against myself?", "gold": ["20"]}
+{"id": "lay-092", "type": "lay", "question": "Can my life or freedom be taken away arbitrarily?", "gold": ["21"]}
+{"id": "lay-093", "type": "lay", "question": "Does an Indian who voluntarily takes another country's citizenship stay Indian?", "gold": ["9"]}
+{"id": "lay-094", "type": "lay", "question": "Who has the power to make laws about citizenship?", "gold": ["11"]}
+{"id": "lay-095", "type": "lay", "question": "Can Parliament create a new state or change a state's borders?", "gold": ["3"]}
+{"id": "lay-096", "type": "lay", "question": "What other name does the Constitution give to India?", "gold": ["1"]}
+{"id": "lay-097", "type": "lay", "question": "What ideals does the opening statement of the Constitution promise?", "gold": ["Preamble"]}
+{"id": "lay-098", "type": "lay", "question": "Should judges be kept separate from the government's executive?", "gold": ["50"]}
+{"id": "lay-099", "type": "lay", "question": "Should the State protect historic monuments?", "gold": ["49"]}
+{"id": "lay-100", "type": "lay", "question": "Is the State supposed to improve nutrition and discourage alcohol?", "gold": ["47"]}
+{"id": "lay-101", "type": "lay", "question": "Are workers supposed to get a decent living wage?", "gold": ["43"]}
+{"id": "lay-102", "type": "lay", "question": "Should workers have a say in running industries?", "gold": ["43A"]}
+{"id": "lay-103", "type": "lay", "question": "Should the State provide maternity relief?", "gold": ["42"]}
+{"id": "lay-104", "type": "lay", "question": "Should the State stop wealth from piling up in a few hands?", "gold": ["39"]}
+{"id": "lay-105", "type": "lay", "question": "Should the State improve cattle breeds and ban cow slaughter?", "gold": ["48"]}
+{"id": "lay-106", "type": "lay", "question": "Can Parliament limit the rights of soldiers and police?", "gold": ["33"]}
+{"id": "lay-107", "type": "lay", "question": "Is a law that takes away fundamental rights valid?", "gold": ["13"]}
+{"id": "lay-108", "type": "lay", "question": "Can a Chief Minister hide government decisions from the Governor?", "gold": ["167"]}
+{"id": "lay-109", "type": "lay", "question": "Who looks after the welfare of linguistic minorities?", "gold": ["350B"]}
+{"id": "legal-000", "type": "legal", "question": "Issue of writs of habeas corpus, mandamus, prohibition, quo warranto and certiorari by the Supreme Court", "gold": ["32"]}
+{"id": "legal-001", "type": "legal", "question": "Proclamation of Emergency on the ground of armed rebellion", "gold": ["352"]}
+{"id": "legal-002", "type": "legal", "question": "Disqualification of Members of Parliament under the Tenth Schedule on ground of defection", "gold": ["102"]}
+{"id": "legal-003", "type": "legal", "question": "Establishment of an Inter-State Council", "gold": ["263"]}
+{"id": "legal-004", "type": "legal", "question": "Constitution and functions of the Finance Commission", "gold": ["280"]}
+{"id": "legal-005", "type": "legal", "question": "Consolidated Fund of India and public accounts", "gold": ["266"]}
+{"id": "legal-006", "type": "legal", "question": "Ordinance-making power of the President during recess of Parliament", "gold": ["123"]}
+{"id": "legal-007", "type": "legal", "question": "Special leave to appeal from any judgment of any court or tribunal", "gold": ["136"]}
+{"id": "legal-008", "type": "legal", "question": "Review of judgments or orders pronounced by the Supreme Court", "gold": ["137"]}
+{"id": "legal-009", "type": "legal", "question": "Administrative tribunals for disputes regarding recruitment and conditions of service", "gold": ["323A"]}
+{"id": "legal-010", "type": "legal", "question": "National Commission for Scheduled Tribes", "gold": ["338A"]}
+{"id": "legal-011", "type": "legal", "question": "Public Service Commissions for the Union and for the States", "gold": ["315"]}
+{"id": "legal-012", "type": "legal", "question": "Superintendence, direction and control of elections vested in the Election Commission", "gold": ["324"]}
+{"id": "legal-013", "type": "legal", "question": "Residuary powers of legislation of Parliament", "gold": ["248"]}
+{"id": "legal-014", "type": "legal", "question": "Powers and functions of the Gram Sabha", "gold": ["243A"]}
+{"id": "legal-015", "type": "legal", "question": "Committee for Metropolitan planning", "gold": ["243ZE"]}
+{"id": "legal-016", "type": "legal", "question": "Committee for district planning", "gold": ["243ZD"]}
+{"id": "legal-017", "type": "legal", "question": "Power of the Governor to grant pardons, reprieves, respites or remissions of punishment", "gold": ["161"]}
+{"id": "legal-018", "type": "legal", "question": "Tenure of office of civil servants at the pleasure of the President", "gold": ["310"]}
+{"id": "legal-019", "type": "legal", "question": "Directive principle on a uniform civil code", "gold": ["44"]}
+{"id": "legal-020", "type": "legal", "question": "Protection against double jeopardy and self-incrimination", "gold": ["20"]}
+{"id": "legal-021", "type": "legal", "question": "Prohibition of traffic in human beings and begar", "gold": ["23"]}
+{"id": "legal-022", "type": "legal", "question": "Power of superintendence of High Courts over all courts and tribunals", "gold": ["227"]}
+{"id": "legal-023", "type": "legal", "question": "Borrowing by the Government of India upon the security of the Consolidated Fund", "gold": ["292"]}
+{"id": "legal-024", "type": "legal", "question": "Joint sitting of both Houses of Parliament", "gold": ["108"]}
+{"id": "legal-025", "type": "legal", "question": "Special provisions with respect to the State of Sikkim", "gold": ["371F"]}
+{"id": "legal-026", "type": "legal", "question": "Official language of the Union: Hindi in Devanagari script", "gold": ["343"]}
+{"id": "legal-027", "type": "legal", "question": "Annual financial statement laid before both Houses", "gold": ["112"]}
+{"id": "legal-028", "type": "legal", "question": "Abolition or creation of Legislative Councils in States", "gold": ["169"]}
+{"id": "legal-029", "type": "legal", "question": "Contingency Fund of India placed at the disposal of the President", "gold": ["267"]}
+{"id": "oos-000", "type": "out_of_scope", "question": "What is the current GST rate on gold jewellery?", "gold": []}
+{"id": "oos-001", "type": "out_of_scope", "question": "Who is the current Prime Minister of India?", "gold": []}
+{"id": "oos-002", "type": "out_of_scope", "question": "What is the punishment for murder under the Indian Penal Code?", "gold": []}
+{"id": "oos-003", "type": "out_of_scope", "question": "How do I apply for an Indian passport?", "gold": []}
+{"id": "oos-004", "type": "out_of_scope", "question": "What are the income tax slabs for salaried employees this year?", "gold": []}
+{"id": "oos-005", "type": "out_of_scope", "question": "Which team won the 2011 Cricket World Cup?", "gold": []}
+{"id": "oos-006", "type": "out_of_scope", "question": "What is the speed limit on national highways?", "gold": []}
+{"id": "oos-007", "type": "out_of_scope", "question": "How many judges currently sit in the Bombay High Court?", "gold": []}
+{"id": "oos-008", "type": "out_of_scope", "question": "What did the Supreme Court hold in the Kesavananda Bharati case?", "gold": []}
+{"id": "oos-009", "type": "out_of_scope", "question": "What is the current repo rate set by the RBI?", "gold": []}
+{"id": "oos-010", "type": "out_of_scope", "question": "How do I file an RTI application online?", "gold": []}
+{"id": "oos-011", "type": "out_of_scope", "question": "What is the fine for riding a two-wheeler without a helmet?", "gold": []}
